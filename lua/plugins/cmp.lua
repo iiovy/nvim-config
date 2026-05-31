@@ -1,6 +1,8 @@
 return {
   "hrsh7th/nvim-cmp",
+
   event = "InsertEnter",
+
   dependencies = {
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/cmp-buffer",
@@ -36,5 +38,3 @@ return {
     })
   end,
 }
-
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
